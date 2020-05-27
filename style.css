@@ -115,7 +115,7 @@ footer{
 	margin-top: 5rem;
 }
 
-@media (max-width: 375px){
+@media only screen and (min-width: 375px){
 	.section{
 		margin-top: 5rem;
 	}
@@ -153,4 +153,12 @@ footer{
 		height: 240px;
 		box-shadow: 0px 8px 16px 0 rgba(0, 0, 0, 0.2);
 	}
+}
+
+@media only screen and (device-width: 414px) 
+and (device-height: 896px) {
+	div.col-md-7{
+		width: 332.5px;
+	}
+
 }
